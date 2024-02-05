@@ -6,4 +6,6 @@ st.write("""
 """)
 
 df = pd.read_csv("ativos-reducao-tratados.csv")
-ativos = df_selection.rows()
+
+contador = pd.DataFrame(df)
+contador
