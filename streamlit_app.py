@@ -2,8 +2,7 @@ import streamlit as st
 import pandas as pd
  
 st.write("""
-# My first app
-Hello *world!*
+# Dashboard - Ativos da Redução
 """)
 
 df = pd.read_csv("ativos-reducao-tratados.csv")
