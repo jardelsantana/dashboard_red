@@ -7,5 +7,5 @@ st.write("""
 
 df = pd.read_csv("ativos-reducao-tratados.csv", index_col=0)
 
-print(df["AREA"].unique())
+print(df.unique["AREA"])
 
