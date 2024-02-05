@@ -7,6 +7,6 @@ st.write("""
 
 df = pd.read_csv("ativos-reducao-tratados.csv")
 
-number_of_rows = len(df)
+num_of_rows = len(df)
 
 print(f"The number of rows is {num_of_rows}")
