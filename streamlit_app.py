@@ -6,7 +6,6 @@ st.write("""
 """)
 
 df = pd.read_csv("ativos-reducao-tratados.csv")
-df["AREA"]
-#areas = df["AREA"]
 
-#areas
+areas = df["AREA"].value_counts().index
+area = st.sidebar.selectbox("Áreas", areas)
