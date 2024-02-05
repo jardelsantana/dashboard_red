@@ -6,5 +6,5 @@ st.write("""
 """)
 
 df = pd.read_csv("ativos-reducao-tratados.csv")
-df.set_index("AREA", inplace= True)
+#df.set_index("AREA", inplace= True)
 st.line_chart(df["ASSET TYPE"])
