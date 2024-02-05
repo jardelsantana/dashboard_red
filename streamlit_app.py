@@ -6,6 +6,6 @@ st.write("""
 """)
 
 df = pd.read_csv("ativos-reducao-tratados.csv", index_col=0)
+areas = df["AREA"]
 
-print(df.unique[1])
-
+areas
