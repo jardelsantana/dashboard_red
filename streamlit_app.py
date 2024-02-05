@@ -5,7 +5,7 @@ st.write("""
 # Dashboard - Ativos da Redução
 """)
 
-df = pd.read_csv("ativos-reducao-tratados.csv", index_col=0)
+df = pd.read_csv("ativos-reducao-tratados.csv")
 df["AREA"]
 #areas = df["AREA"]
 
