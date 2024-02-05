@@ -6,7 +6,7 @@ st.write("""
 """)
 
 df = pd.read_csv("ativos-reducao-tratados.csv", index_col=0)
-df
+df[0]
 #areas = df["AREA"]
 
 #areas
