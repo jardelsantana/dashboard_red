@@ -6,4 +6,5 @@ st.write("""
 """)
 
 df = pd.read_csv("ativos-reducao-tratados.csv")
-df
+ativos = df_selection.count()
+ativos
