@@ -9,4 +9,4 @@ df = pd.read_csv("ativos-reducao-tratados.csv")
 
 num_of_rows = len(df)
 
-print(f"The number of rows is {num_of_rows}")
+print(num_of_rows)
