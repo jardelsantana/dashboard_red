@@ -7,5 +7,5 @@ st.write("""
 
 df = pd.read_csv("ativos-reducao-tratados.csv", index_col=0)
 
-areas = df["AREA"].unique()
-area = st.sidebar.selectbox("Area", areas)
+print(df["AREA"].unique())
+
