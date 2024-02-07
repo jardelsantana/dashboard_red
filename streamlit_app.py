@@ -8,6 +8,6 @@ st.write("""
 
 df = pd.read_csv("ativos-reducao-tratados.csv")
 
-df["INSPECTOR"].value_counts()
-
+temporaria = df["INSPECTOR"].value_counts() == "DAYVID E RAUL"
+temporaria
 df
