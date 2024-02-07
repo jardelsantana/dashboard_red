@@ -8,6 +8,6 @@ st.write("""
 
 df = pd.read_csv("ativos-reducao-tratados.csv")
 
-df.shape[0]
+df["INSPECTOR"].value_counts()
 
 df
