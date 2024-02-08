@@ -7,7 +7,7 @@ st.write("""
 """)
 
 df = pd.read_csv("ativos-reducao-tratados.csv")
-df.set_index("INSPECTION DATE",inplace=True )
+df.set_index("ASSET TYPE",inplace=True )
 
-st.area_chart(df["ASSET"]).value_counts().index
+st.area_chart(df["INSPECTION DATE"]).value_counts().index
 df
