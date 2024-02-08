@@ -10,4 +10,4 @@ df = pd.read_csv("ativos-reducao-tratados.csv")
 df.set_index("INSPECTION DATE",inplace=True )
 
 st.line_chart(df["REPORT STATUS"] == "100%")
-#df
+df
