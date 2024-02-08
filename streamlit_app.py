@@ -9,5 +9,5 @@ st.write("""
 df = pd.read_csv("ativos-reducao-tratados.csv")
 df.set_index("ASSET TYPE",inplace=True )
 
-st.area_chart(df["ASSET"])
+st.area_chart(df["ASSET"]).index
 df
