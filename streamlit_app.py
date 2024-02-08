@@ -7,7 +7,7 @@ st.write("""
 """)
 
 df = pd.read_csv("ativos-reducao-tratados.csv")
-df.set_index("ASSET",inplace=True )
+df.set_index("ASSET TYPE",inplace=True )
 
-st.bar_chart(df["ASSET TYPE"])
+st.bar_chart(df["ASSET"])
 df
